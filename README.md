@@ -23,8 +23,10 @@ Once created don't forget to update the:
 - Dependency versions managed via `buildSrc`.
 - Kotlin Static Analysis via `ktlint` and `detekt`.
 - Memory leak detection via `LeakCanary`
-- Navigation component and sage args
-- View binding & Data binding
+- `Navigation component` and `sage args`
+- `View binding` & `Data binding`
+- `Koin`
+- `Retrofit` & `Room`
 
 ## In Progress
 - Sample Espresso, Instrumentation & JUnit tests.
