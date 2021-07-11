@@ -3,6 +3,7 @@ plugins {
     kotlin(Dependencies.Plugins.android)
     kotlin(Dependencies.Plugins.kapt)
     id(Dependencies.Plugins.parcelize)
+    id(Dependencies.Plugins.navigation_safe_args_kotlin)
 }
 
 android {
@@ -82,6 +83,10 @@ dependencies {
     implementation(Dependencies.Android.lifecycleViewModelKtx)
     implementation(Dependencies.Android.lifecycleLiveDataKtx)
     implementation(Dependencies.Android.lifecycleCommonJava8)
+    implementation(Dependencies.Android.navigationFragmentKtx)
+    implementation(Dependencies.Android.navigationUiKtx)
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:${rootProject.extra["kotlin_version"]}")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
     // Kapt
     kapt(Dependencies.Android.roomKapt)
@@ -102,6 +107,7 @@ dependencies {
     // Android Test
     androidTestImplementation(Dependencies.AndroidTest.extJUnit)
     androidTestImplementation(Dependencies.AndroidTest.espressoCore)
+    androidTestImplementation(Dependencies.AndroidTest.navigation)
 
     // Debug
     debugImplementation(Dependencies.ThirdParty.leakCanary)

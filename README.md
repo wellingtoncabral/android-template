@@ -18,14 +18,15 @@ Once created don't forget to update the:
 ## Features
 
 - **100% Kotlin-only template**.
-- X Sample modules (Android app, domain, x).
+- X Sample modules (Android app, domain, data).
 - 100% Gradle Kotlin DSL setup.
 - Dependency versions managed via `buildSrc`.
 - Kotlin Static Analysis via `ktlint` and `detekt`.
 - Memory leak detection via `LeakCanary`
+- Navigation component and sage args
+- View binding & Data binding
 
 ## In Progress
-- Navigation Component
 - Sample Espresso, Instrumentation & JUnit tests.
 - CI Setup with GitHub Actions.
 - Publish to **Maven Central** with Github Actions.

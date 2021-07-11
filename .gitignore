@@ -1,12 +1,58 @@
-*.iml
 .gradle
-/local.properties
-/.idea/caches/build_file_checksums.ser
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
+local.properties
+/.idea
 .DS_Store
 /build
 /captures
+.cxx
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+sample/submodules_features/
+
+# Gradle files
+.gradle/
+build/
+
+# BuildSrc Gradle files
+buildSrc/.gradle
+buildSrc/build/
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.iml
+.idea
+
+# Keystore files
+# Uncomment the following line if you do not want to check your keystore files in.
+#*.jks
+
+# External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
-google-services.json
+
+# Google Services (e.g. APIs or Firebase)
+#google-services.json
+
+# Mac
+.DS_STORE

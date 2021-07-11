@@ -9,6 +9,7 @@ object Dependencies {
 
         const val gradle = "com.android.tools.build:gradle:${Version.gradle}"
         const val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Version.kotlin}"
+        const val navigationSafeArgsPlugin = "androidx.navigation:navigation-safe-args-gradle-plugin:${Android.Version.navigation}"
     }
 
     object Plugins {
@@ -26,6 +27,7 @@ object Dependencies {
         const val detekt = "io.gitlab.arturbosch.detekt"
         const val ktlint = "org.jlleitschuh.gradle.ktlint"
         const val parcelize = "kotlin-parcelize"
+        const val navigation_safe_args_kotlin = "androidx.navigation.safeargs.kotlin"
     }
 
     object Android {
@@ -38,6 +40,7 @@ object Dependencies {
             const val coroutines = "1.4.3"
             const val room = "2.2.6"
             const val lifecycle = "2.3.1"
+            const val navigation = "2.3.5"
         }
 
         const val kotlinStdLibJdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${ClassPath.Version.kotlin}"
@@ -46,6 +49,8 @@ object Dependencies {
         const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Version.constraintLayout}"
         const val materialDesign = "com.google.android.material:material:${Version.materialDesign}"
         const val kotlinxCoroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Version.coroutines}"
+        const val navigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:${Version.navigation}"
+        const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Version.navigation}"
 
         // Room
         const val room = "androidx.room:room-runtime:${Version.room}"
@@ -101,6 +106,7 @@ object Dependencies {
 
         const val extJUnit = "androidx.test.ext:junit:${Version.extJunit}"
         const val espressoCore = "androidx.test.espresso:espresso-core:${Version.espresso}"
+        const val navigation = "androidx.navigation:navigation-testing:${Android.Version.navigation}"
     }
 
 }

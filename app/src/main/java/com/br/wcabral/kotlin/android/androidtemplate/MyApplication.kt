@@ -19,7 +19,8 @@ class MyApplication: Application() {
                 remoteDataSourceModule,
                 repositoryModule,
                 useCaseModule,
-                viewModelModule
+                viewModelModule,
+                routerModule
             )
         }
     }
