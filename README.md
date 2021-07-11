@@ -1,4 +1,4 @@
-# android-template (Kotlin)
+# android-template (Kotlin + Clean Architecture + MVVM)
 
 [![ktlint](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/) ![License](https://img.shields.io/github/license/cortinico/kotlin-android-template.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
 
@@ -7,6 +7,8 @@ A simple Github template that lets you create an **Android/Kotlin** project and 
 This template is focused on delivering a project with **static analysis** and **continuous integration** already in place.
 
 ## How to use
+
+Just click on [![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/wellingtoncabral/android-template/generate) button to create a new repo starting from this template.
 
 Once created don't forget to update the:
 - [App ID](buildSrc/src/main/java/AppConfig.kt)
