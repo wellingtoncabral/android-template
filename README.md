@@ -25,6 +25,7 @@ Once created don't forget to update the:
 - Memory leak detection via `LeakCanary`
 
 ## In Progress
+- Navigation Component
 - Sample Espresso, Instrumentation & JUnit tests.
 - CI Setup with GitHub Actions.
 - Publish to **Maven Central** with Github Actions.

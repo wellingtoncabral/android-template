@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: Android_Template.data.data">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/data/build/libs/data.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
